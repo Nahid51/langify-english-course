@@ -1,8 +1,9 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Teacher = (props) => {
-    const { img, teacherName, designation } = props.teacher;
+    const { id, img, teacherName, designation } = props.teacher;
     return (
         <div>
             <Col>
@@ -13,10 +14,13 @@ const Teacher = (props) => {
                         <Card.Text>
                             {designation}
                         </Card.Text>
-                        <Button variant="danger">Details</Button>{' '}
+                        <Link to={`/teacherDetails/${id}`}>
+                            <Button variant="danger">Details</Button>{' '}
+                        </Link>
                     </Card.Body>
                 </Card>
             </Col>
+
         </div>
     );
 };

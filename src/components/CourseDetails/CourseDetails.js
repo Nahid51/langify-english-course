@@ -20,7 +20,7 @@ const CourseDetails = (props) => {
         const foundCourse = courseDetails.find(course => course.id === courseId);
         setSingleCourse(foundCourse);
     }, [courseDetails, courseId]);
-    // console.log(singleCourse?.id);
+
     return (
         <div>
             <div className='my-5'>
@@ -29,9 +29,9 @@ const CourseDetails = (props) => {
                     <Card.Body>
                         <Card.Title>Category: {singleCourse?.category}</Card.Title>
                         <Card.Text>Course Start: {singleCourse?.started}</Card.Text>
-                        <Card.Text>Total Cost:{singleCourse?.totalCost}</Card.Text>
-                        <Card.Text>Admission Cost: {singleCourse?.admissinCost}</Card.Text>
-                        <Card.Text>Duration: {singleCourse?.duration}</Card.Text>
+                        <Card.Text>Total Cost: &#2547; {singleCourse?.totalCost}</Card.Text>
+                        <Card.Text>Admission Cost: &#2547; {singleCourse?.admissinCost}</Card.Text>
+                        <Card.Text>Duration: {singleCourse?.duration} month</Card.Text>
                         <Card.Text>Language: {singleCourse?.language}</Card.Text>
                     </Card.Body>
                 </Card>

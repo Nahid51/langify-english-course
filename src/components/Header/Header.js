@@ -8,21 +8,17 @@ const Header = () => {
         <div className='py-3'>
             <Navbar bg="dark" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand className="text-light" href="#">Navbar scroll</Navbar.Brand>
+                    <Navbar.Brand className="text-light">Langify</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
-                        <Nav
-                            className="me-auto my-2 my-lg-0"
+                        <Nav className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100px' }}
-                            navbarScroll
-                        >
-
+                            navbarScroll>
                             <Link to='/home' className="text-light text-decoration-none ms-3">Home</Link>
-                            <Link to='/about/:aboutId' className="text-light text-decoration-none ms-3">About</Link>
+                            <Link to='/about/' className="text-light text-decoration-none ms-3">About</Link>
                             <Link to='/services' className="text-light text-decoration-none ms-3">Services</Link>
                             <Link to='/teachers' className="text-light text-decoration-none ms-3">Teachers</Link>
                             <Link to='/contact' className="text-light text-decoration-none ms-3">Contact</Link>
-
                         </Nav>
                         <Form className="d-flex">
                             <FormControl

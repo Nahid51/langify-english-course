@@ -18,6 +18,7 @@ const Teachers = () => {
             <Row xs={1} md={3} className="g-4">
                 {teachers.map(teacher => (
                     <Teacher
+                        key={teacher.id}
                         teacher={teacher}
                     ></Teacher>
                 ))}

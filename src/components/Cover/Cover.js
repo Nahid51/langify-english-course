@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
 import img from '../../images/study.jpg'
 
-
 const Cover = () => {
     return (
         <div>
