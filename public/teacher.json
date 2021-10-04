@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1100",
+        "img": "https://i.ibb.co/YhFkz6g/teacher-1.png",
+        "teacherName": "Domingos Bernardo",
+        "designation": "Multi-level English Instructor",
+        "age": "32",
+        "salary": "15000",
+        "nationality": "UK",
+        "about": "Mr Bernardo is a very experienced and acessible teacher. He is the founder of DB Learning and Teaching, as our Beginner to Advanced Course Instructor, he is committed to providing students with the skills and tools necessary to continue their learning journey. He is available Monday to Friday mornings, afternoons and Evenings."
+    },
+    {
+        "id": "1200",
+        "img": "https://i.ibb.co/FbN4Ntk/teacher-2.png",
+        "teacherName": "Stelvio William",
+        "designation": "Multi-level English Instructor",
+        "age": "42",
+        "salary": "17000",
+        "nationality": "UK",
+        "about": "Stelvio William has been with DB Learning And Teaching from the very beginning. After many years of experience as an English Teacher, we’re thrilled to have his expertise as our Beginner to Upper-intermediate Course Instructor. He is available Monday to Friday Mornings and late afternoons or some evenings."
+    },
+    {
+        "id": "1300",
+        "img": "https://i.ibb.co/6ymkhFW/teacher-3.png",
+        "teacherName": "John Bernardo",
+        "designation": "Multi-level English Instructor",
+        "age": "35",
+        "salary": "27000",
+        "nationality": "UK",
+        "about": "John Bernardo is a very experienced and acessible teacher. He is the founder of DB Learning and Teaching, as our Beginner to Advanced Course Instructor, he is committed to providing students with the skills and tools necessary to continue their learning journey. He is available Monday to Friday mornings, afternoons and Evenings."
+    },
+    {
+        "id": "1400",
+        "img": "https://i.ibb.co/vHSmbcj/teacher-4.png",
+        "teacherName": "Jose Debena",
+        "designation": "Computing Software and hardware Instructor",
+        "age": "29",
+        "salary": "20000",
+        "nationality": "UK",
+        "about": "Since joining our team a few years ago, José Debena has brought a fresh perspective and teaching approach to his position as our Software and hardware teacher that has inspired innovation throughout DB Learning And Teaching. His expertise in the field has helped countless students to sharpen their skills. He is available Monday to Friday Mornings and afternoons."
+    }
+]
