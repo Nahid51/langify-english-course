@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 
 const Teacher = (props) => {
-    // console.log(props.teacher);
     const { img, teacherName, designation } = props.teacher;
     return (
         <div>

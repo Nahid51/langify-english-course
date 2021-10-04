@@ -1,10 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { Button, Card } from 'react-bootstrap';
-import { useParams, NavLink } from 'react-router-dom';
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
+import { Card } from 'react-bootstrap';
+import { useParams } from 'react-router-dom';
 
 const CourseDetails = (props) => {
     let { courseId } = useParams([]);
@@ -25,7 +23,6 @@ const CourseDetails = (props) => {
     // console.log(singleCourse?.id);
     return (
         <div>
-            <Header />
             <div className='my-5'>
                 <Card className='mx-auto' style={{ width: '30rem' }}>
                     <Card.Img variant="top" src={singleCourse?.img} />
@@ -36,11 +33,9 @@ const CourseDetails = (props) => {
                         <Card.Text>Admission Cost: {singleCourse?.admissinCost}</Card.Text>
                         <Card.Text>Duration: {singleCourse?.duration}</Card.Text>
                         <Card.Text>Language: {singleCourse?.language}</Card.Text>
-                        <NavLink to='/home'><Button variant="primary">Home</Button></NavLink>
                     </Card.Body>
                 </Card>
             </div>
-            <Footer />
         </div>
     );
 };
