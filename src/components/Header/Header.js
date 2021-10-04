@@ -1,14 +1,15 @@
 import React from 'react';
 import { Button, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import "animate.css"
 
 const Header = () => {
     return (
         <div className='py-3'>
             <Navbar bg="dark" expand="lg">
                 <Container fluid>
-                    <Navbar.Brand className="text-light">Langify</Navbar.Brand>
+
+                    <Navbar.Brand className="animate__animated animate__flip text-light fs-3">Langify</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="me-auto my-2 my-lg-0"

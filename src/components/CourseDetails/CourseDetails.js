@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { Card } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Button, Card } from 'react-bootstrap';
+import { Link, useParams } from 'react-router-dom';
 
 const CourseDetails = (props) => {
     let { courseId } = useParams([]);
@@ -33,6 +33,7 @@ const CourseDetails = (props) => {
                         <Card.Text>Admission Cost: &#2547; {singleCourse?.admissinCost}</Card.Text>
                         <Card.Text>Duration: {singleCourse?.duration} month</Card.Text>
                         <Card.Text>Language: {singleCourse?.language}</Card.Text>
+                        <Link to='/services'><Button className='mx-auto' variant="danger">Back</Button></Link>
                     </Card.Body>
                 </Card>
             </div>

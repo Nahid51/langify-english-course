@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { Card } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Button, Card } from 'react-bootstrap';
+import { Link, useParams } from 'react-router-dom';
 
 const TeacherDetail = (props) => {
     let { teacherId } = useParams([]);
@@ -32,6 +32,7 @@ const TeacherDetail = (props) => {
                         <Card.Text>Salary: &#2547; {singleTeacher?.salary}</Card.Text>
                         <Card.Text>Nationality: {singleTeacher?.nationality}</Card.Text>
                         <Card.Text>About: {singleTeacher?.about}</Card.Text>
+                        <Link to='/teachers'><Button className='mx-auto' variant="danger">Back</Button></Link>
                     </Card.Body>
                 </Card>
             </div>
