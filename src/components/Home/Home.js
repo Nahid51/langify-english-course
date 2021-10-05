@@ -25,7 +25,7 @@ const Home = () => {
             <About></About>
             <div>
                 <h2 className='my-3'>Our All Cources Level</h2>
-                <Row xs={2} md={4} className="g-4">
+                <Row xs={1} md={4} className="g-4">
                     {services.map(service => (
                         <Course
                             key={service.id}
@@ -37,7 +37,7 @@ const Home = () => {
 
             <div>
                 <h2 className='mt-5 mb-3'>Meet the DB Learning And Teaching Team</h2>
-                <Row xs={2} md={4} className="g-4">
+                <Row xs={1} md={4} className="g-4">
                     {teachers.map(teacher => (
                         <Teacher
                             key={teacher.id}
