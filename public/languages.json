@@ -7,7 +7,8 @@
         "totalCost": "7000",
         "admissinCost": "3000",
         "duration": "6",
-        "language": "English"
+        "language": "English",
+        "about": "The Begineer level covers four base modules; Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. Each level based on simple basic English grammer specially designed by teacher John Bernardo improve English."
     },
     {
         "id": "1800",
@@ -17,7 +18,8 @@
         "totalCost": "7000",
         "admissinCost": "2000",
         "duration": "3",
-        "language": "English"
+        "language": "English",
+        "about": "The Elementary level, covers four base modules: Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. Each level imparts its knowledge in specially designed English video lessons."
     },
     {
         "id": "1900",
@@ -27,7 +29,8 @@
         "totalCost": "8000",
         "admissinCost": "3000",
         "duration": "6",
-        "language": "English"
+        "language": "English",
+        "about": "The Pre-Intermediate level covers the four base modules; Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. As with the Elementary level, each level in the Pre-Intermediate level has shown on current affairs and day-to-day interactions to improve English."
     },
     {
         "id": "1000",
@@ -37,7 +40,8 @@
         "totalCost": "9000",
         "admissinCost": "3500",
         "duration": "8",
-        "language": "English"
+        "language": "English",
+        "about": "Grammar Wise deals with the most vital area of the English language. In this course, teacher John Bernardo simplifies what appears to be the most complicated area in English language. Speak up superbly develops your pronunciation skills whilst Step By Step is entirely dedicated to beginners in English."
     },
     {
         "id": "11100",
@@ -47,16 +51,29 @@
         "totalCost": "7000",
         "admissinCost": "3000",
         "duration": "6",
-        "language": "English"
+        "language": "English",
+        "about": "The Upper-Intermediate level spans four primary modules; Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. Each level consists of English video lessons specially designed by teacher Stelvio William."
+    },
+    {
+        "id": "20000",
+        "img": "https://tv-english.club/wp-content/uploads/2014/12/advanced.jpg",
+        "category": "Advanced",
+        "started": "10 January, 2022",
+        "totalCost": "7000",
+        "admissinCost": "3000",
+        "duration": "6",
+        "language": "English",
+        "about": "The Advanced level covers four base modules; Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. Each level consists of several English video lessons specially designed by teacher Domingos Bernardo which is centring on his personal website and day-to-day interactions designed to improve English."
     },
     {
         "id": "12200",
-        "img": "https://tv-english.club/wp-content/uploads/2014/12/advanced.jpg",
+        "img": "https://i.ibb.co/jHV7Xd5/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg",
         "category": "Computing (word, excel, powerpoint)",
         "started": "1 January, 2022",
         "totalCost": "7000",
         "admissinCost": "3000",
         "duration": "5",
-        "language": "English"
+        "language": "English",
+        "about": "This course will cover the many features of word, excel and powerpoint and will teach you how to use them, starting with the simple and working to the most complicated. The good news is that the new version of Microsoft office makes everything easy. You don't need previous experience with Mircosoft office to be able to complete this course."
     }
 ]

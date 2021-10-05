@@ -33,6 +33,7 @@ const CourseDetails = (props) => {
                         <Card.Text>Admission Cost: &#2547; {singleCourse?.admissinCost}</Card.Text>
                         <Card.Text>Duration: {singleCourse?.duration} month</Card.Text>
                         <Card.Text>Language: {singleCourse?.language}</Card.Text>
+                        <Card.Text><b>About:</b> {singleCourse?.about}</Card.Text>
                         <Link to='/services'><Button className='mx-auto' variant="danger">Back</Button></Link>
                     </Card.Body>
                 </Card>
