@@ -6,7 +6,7 @@ const Teacher = (props) => {
     const { id, img, teacherName, designation } = props.teacher;
     return (
         <div>
-            <Col>
+            <Col className='container'>
                 <Card className='d-flex justify-content-center align-items-center'>
                     <Card.Img className='w-50' variant="top" src={img} />
                     <Card.Body>

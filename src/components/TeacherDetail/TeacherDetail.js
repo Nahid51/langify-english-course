@@ -31,7 +31,7 @@ const TeacherDetail = (props) => {
                         <Card.Text>Age:{singleTeacher?.age}</Card.Text>
                         <Card.Text>Salary: &#2547; {singleTeacher?.salary}</Card.Text>
                         <Card.Text>Nationality: {singleTeacher?.nationality}</Card.Text>
-                        <Card.Text><b>About:</b> {singleTeacher?.about}</Card.Text>
+                        <Card.Text style={{ textAlign: 'justify' }}><b>About:</b> {singleTeacher?.about}</Card.Text>
                         <Link to='/teachers'><Button className='mx-auto' variant="danger">Back</Button></Link>
                     </Card.Body>
                 </Card>

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button, Card, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div>
             <>
-                <Card className="bg-dark text-white">
-                    <Card.Body className='d-flex justify-content-between align-items-center p-5'>
+                <Card className="bg-dark text-white mt-5">
+                    <Card.Body className='d-flex justify-content-between align-items-center p-3'>
                         <div>
                             <Card.Title className="fs-2">
                                 Come Work with Us
@@ -29,9 +30,10 @@ const Footer = () => {
                                     <Form.Label>Your Comment</Form.Label>
                                     <Form.Control as="textarea" rows={3} />
                                 </Form.Group>
-                                <Button variant="primary" type="submit">
+                                <Link to='/footer'><Button variant="primary" type="submit">
                                     Submit
-                                </Button>
+                                </Button></Link>
+
                             </Form>
                         </div>
                     </Card.Body>

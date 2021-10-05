@@ -8,6 +8,7 @@ const CourseDetails = (props) => {
     let { courseId } = useParams([]);
     const [courseDetails, setCourseDetails] = useState([]);
     const [singleCourse, setSingleCourse] = useState([]);
+
     // data loaded
     useEffect(() => {
         fetch('/languages.json')
@@ -30,11 +31,11 @@ const CourseDetails = (props) => {
                         <Card.Title>Category: {singleCourse?.category}</Card.Title>
                         <Card.Text>Course Start: {singleCourse?.started}</Card.Text>
                         <Card.Text>Total Cost: &#2547; {singleCourse?.totalCost}</Card.Text>
-                        <Card.Text>Admission Cost: &#2547; {singleCourse?.admissinCost}</Card.Text>
+                        <Card.Text>Advanced: &#2547; {singleCourse?.advance}</Card.Text>
                         <Card.Text>Duration: {singleCourse?.duration} month</Card.Text>
                         <Card.Text>Language: {singleCourse?.language}</Card.Text>
-                        <Card.Text><b>About:</b> {singleCourse?.about}</Card.Text>
-                        <Link to='/services'><Button className='mx-auto' variant="danger">Back</Button></Link>
+                        <Card.Text style={{ textAlign: 'justify' }}><b>About:</b> {singleCourse?.about}</Card.Text>
+                        <Link to='/courses'><Button className='mx-auto' variant="danger">Back</Button></Link>
                     </Card.Body>
                 </Card>
             </div>

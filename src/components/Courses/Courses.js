@@ -2,29 +2,30 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Row } from 'react-bootstrap';
-import Service from '../Service/Service';
+import Course from '../Course/Course';
 
-const Services = () => {
+const Courses = () => {
     const [services, setServices] = useState([]);
+
+    // load data
     useEffect(() => {
-        // const url = '';
         fetch('./languages.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);
     return (
-        <div className='my-5'>
+        <div>
             <h2 className='my-3'>Our All Cources Level</h2>
-            <Row xs={1} md={3} className="g-4">
+            <Row xs={2} md={4} className="g-4">
                 {services.map(service => (
-                    <Service
+                    <Course
                         key={service.id}
                         service={service}
-                    ></Service>
+                    ></Course>
                 ))}
             </Row>
         </div>
     );
 };
 
-export default Services;
+export default Courses;

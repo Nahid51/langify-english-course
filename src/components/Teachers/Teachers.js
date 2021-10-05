@@ -13,9 +13,9 @@ const Teachers = () => {
             .then(data => setTeachers(data))
     }, []);
     return (
-        <div className='my-5'>
+        <div>
             <h2 className='my-3'>Meet the DB Learning And Teaching Team</h2>
-            <Row xs={1} md={3} className="g-4">
+            <Row xs={2} md={4} className="g-4">
                 {teachers.map(teacher => (
                     <Teacher
                         key={teacher.id}

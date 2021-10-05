@@ -5,7 +5,7 @@
         "category": "Begineer",
         "started": "4 January, 2022",
         "totalCost": "7000",
-        "admissinCost": "3000",
+        "advance": "3000",
         "duration": "6",
         "language": "English",
         "about": "The Begineer level covers four base modules; Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. Each level based on simple basic English grammer specially designed by teacher John Bernardo improve English."
@@ -16,7 +16,7 @@
         "category": "Elementary",
         "started": "4 January, 2022",
         "totalCost": "7000",
-        "admissinCost": "2000",
+        "advance": "2000",
         "duration": "3",
         "language": "English",
         "about": "The Elementary level, covers four base modules: Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. Each level imparts its knowledge in specially designed English video lessons."
@@ -27,7 +27,7 @@
         "category": "Pre-Intermidate",
         "started": "4 January, 2022",
         "totalCost": "8000",
-        "admissinCost": "3000",
+        "advance": "3000",
         "duration": "6",
         "language": "English",
         "about": "The Pre-Intermediate level covers the four base modules; Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. As with the Elementary level, each level in the Pre-Intermediate level has shown on current affairs and day-to-day interactions to improve English."
@@ -38,7 +38,7 @@
         "category": "Intermediate",
         "started": "10 January, 2022",
         "totalCost": "9000",
-        "admissinCost": "3500",
+        "advance": "3500",
         "duration": "8",
         "language": "English",
         "about": "Grammar Wise deals with the most vital area of the English language. In this course, teacher John Bernardo simplifies what appears to be the most complicated area in English language. Speak up superbly develops your pronunciation skills whilst Step By Step is entirely dedicated to beginners in English."
@@ -49,7 +49,7 @@
         "category": "Upper-Intermediate",
         "started": "10 January, 2022",
         "totalCost": "7000",
-        "admissinCost": "3000",
+        "advance": "3000",
         "duration": "6",
         "language": "English",
         "about": "The Upper-Intermediate level spans four primary modules; Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. Each level consists of English video lessons specially designed by teacher Stelvio William."
@@ -60,20 +60,42 @@
         "category": "Advanced",
         "started": "10 January, 2022",
         "totalCost": "7000",
-        "admissinCost": "3000",
+        "advance": "3000",
         "duration": "6",
         "language": "English",
         "about": "The Advanced level covers four base modules; Listening Skills, Speaking Skills, Vocabulary Expansion and Grammar. Each level consists of several English video lessons specially designed by teacher Domingos Bernardo which is centring on his personal website and day-to-day interactions designed to improve English."
     },
     {
         "id": "12200",
-        "img": "https://i.ibb.co/jHV7Xd5/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg",
-        "category": "Computing (word, excel, powerpoint)",
+        "img": "https://i.ibb.co/MD4QHKM/dsg.jpg",
+        "category": "Computing (Microsoft Word)",
         "started": "1 January, 2022",
-        "totalCost": "7000",
-        "admissinCost": "3000",
-        "duration": "5",
+        "totalCost": "5000",
+        "advance": "1000",
+        "duration": "3",
         "language": "English",
-        "about": "This course will cover the many features of word, excel and powerpoint and will teach you how to use them, starting with the simple and working to the most complicated. The good news is that the new version of Microsoft office makes everything easy. You don't need previous experience with Mircosoft office to be able to complete this course."
+        "about": "This course will teach you all the skills you'll need to successfully use Microsoft Word.   You'll learn everything you need to know to create and format documents, create publications such as brochures, and use Word's advanced features.  Each lesson in this course contains step-by-step instructions and screenshots that make learning easy. The good news is that the new version of Microsoft office makes everything easy. You don't need previous experience with Mircosoft office to be able to complete this course."
+    },
+    {
+        "id": "12200",
+        "img": "https://i.ibb.co/WBS5ywn/ff.png",
+        "category": "Computing (Microsoft Excel)",
+        "started": "2 January, 2022",
+        "totalCost": "7000",
+        "advance": "2000",
+        "duration": "3",
+        "language": "English",
+        "about": "Microsoft Excel is a spreadsheet program that comes packaged with the Microsoft Office family of software products. Microsoft Excel can be used for a wide variety of purposes such as creating an address book, grocery lists, tracking expenses, creating invoices and bills, accounting, balance checkbooks and other financial accounts, as well as any other purpose that requires a spreadsheet or table. This course will cover the many features of excel and will teach you how to use them, starting with the simple and working to the most complicated."
+    },
+    {
+        "id": "12200",
+        "img": "https://i.ibb.co/BPv1F1k/dg.png",
+        "category": "Computing (Microsoft Powerpoint)",
+        "started": "3 January, 2022",
+        "totalCost": "4000",
+        "advance": "1000",
+        "duration": "3",
+        "language": "English",
+        "about": "Microsoft PowerPoint is a presentation creator that can be used to create stunning slideshows and basic videos.  It can also be used to create slide presentations, handouts, transparencies, and much more.  While creating presentations using some programs can be complicated, Microsoft makes using PowerPoint easy by taking advantage of the Office Ribbon and easy-to-use tools. This course will cover the many features of powerpoint and will teach you how to use them, starting with the simple and working to the most complicated."
     }
 ]

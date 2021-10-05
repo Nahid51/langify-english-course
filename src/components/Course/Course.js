@@ -2,13 +2,13 @@ import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Service = (props) => {
+const Course = (props) => {
     const { id, img, category, duration, started } = props.service;
     return (
         <div>
-            <Col>
+            <Col className='container'>
                 <Card>
-                    <Card.Img variant="top" src={img} />
+                    <Card.Img style={{ height: '20rem' }} variant="top" src={img} />
                     <Card.Body>
                         <Card.Title>{category}</Card.Title>
                         <Card.Text>Start on: {started}</Card.Text>
@@ -23,4 +23,4 @@ const Service = (props) => {
     );
 };
 
-export default Service;
+export default Course;

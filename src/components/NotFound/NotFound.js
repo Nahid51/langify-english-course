@@ -4,10 +4,9 @@ import { Link } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        <div>
-            <h1>404</h1>
-            <h5>Page Not Found</h5>
-            <Link to='/home'><Button className='btn btn-primary'>Home</Button></Link>
+        <div className='h-'>
+            <img src="https://cdn.dribbble.com/users/62549/screenshots/3894903/media/c3a11496923b170c18c947fe93d13261.gif" alt="" /> <br />
+            <Link to='/home'><Button className='btn btn-danger mt-3'>BACK TO HOME PAGE</Button></Link>
         </div>
     );
 };

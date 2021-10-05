@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
-import Services from './components/Services/Services';
+import Courses from './components/Courses/Courses';
 import TeacherDetail from './components/TeacherDetail/TeacherDetail';
 import Teachers from './components/Teachers/Teachers';
 
@@ -26,8 +26,8 @@ function App() {
           <Route exact path='/about/'>
             <About></About>
           </Route>
-          <Route exact path='/services'>
-            <Services></Services>
+          <Route exact path='/Courses'>
+            <Courses></Courses>
           </Route>
           <Route exact path='/teachers'>
             <Teachers></Teachers>
@@ -41,7 +41,7 @@ function App() {
           <Route exact path='/contact'>
             <Contact></Contact>
           </Route>
-          <Route path='*'>
+          <Route exact path='*'>
             <NotFound></NotFound>
           </Route>
         </Switch>

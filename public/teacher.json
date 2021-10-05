@@ -7,7 +7,7 @@
         "age": "32",
         "salary": "15000",
         "nationality": "UK",
-        "about": "Mr Bernardo is a very experienced and acessible teacher. He is the founder of Langify Learning and Teaching, as our Beginner to Advanced Course Instructor, he is committed to providing students with the skills and tools necessary to continue their learning journey. He is available Monday to Friday mornings, afternoons and Evenings."
+        "about": "Domingos Bernardo is a very experienced and acessible teacher. He is the founder of Langify Learning and Teaching, as our Beginner to Advanced Course Instructor, he is committed to providing students with the skills and tools necessary to continue their learning journey. He is available Monday to Friday mornings, afternoons and Evenings."
     },
     {
         "id": "1200",
@@ -35,8 +35,28 @@
         "teacherName": "Jose Debena",
         "designation": "Computing Software and hardware Instructor",
         "age": "29",
-        "salary": "20000",
+        "salary": "17000",
         "nationality": "UK",
         "about": "Since joining our team a few years ago, José Debena has brought a fresh perspective and teaching approach to his position as our Software and hardware teacher that has inspired innovation throughout Langify Learning And Teaching. His expertise in the field has helped countless students to sharpen their skills. He is available Monday to Friday Mornings and afternoons."
+    },
+    {
+        "id": "1400",
+        "img": "https://i.ibb.co/QM5hhS7/player-4.png",
+        "teacherName": "Jose Barner",
+        "designation": "Computing Software and hardware Instructor",
+        "age": "40",
+        "salary": "20000",
+        "nationality": "UK",
+        "about": "Since joining our team a few years ago, Jose Barner has brought a fresh perspective and teaching approach to his position as our Software and hardware teacher that has inspired innovation throughout Langify Learning And Teaching. His expertise in the field has helped countless students to sharpen their skills. He is available Monday to Friday Mornings and afternoons."
+    },
+    {
+        "id": "1400",
+        "img": "https://i.ibb.co/Xk4m2B6/player-6.png",
+        "teacherName": "Lucky Debena",
+        "designation": "Computing Software and hardware Instructor",
+        "age": "32",
+        "salary": "18000",
+        "nationality": "UK",
+        "about": "Since joining our team a few years ago, Lucky Debena has brought a fresh perspective and teaching approach to his position as our Software and hardware teacher that has inspired innovation throughout Langify Learning And Teaching. His expertise in the field has helped countless students to sharpen their skills. He is available Monday to Friday Mornings and afternoons."
     }
 ]
