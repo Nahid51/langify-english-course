@@ -1,4 +1,4 @@
-# Create an educational based Langify English Course with Upgrade Technical skills.
+# Create an educational based Langify English Course with an computer Technical skills.
 
 This project was bootstrapped with [Langify](https://dreamy-mcclintock-006e0c.netlify.app/).
 
