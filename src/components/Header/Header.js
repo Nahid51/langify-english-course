@@ -17,7 +17,7 @@ const Header = () => {
                             navbarScroll>
                             <Link to='/home' className="text-light text-decoration-none ms-3">Home</Link>
                             <Link to='/about/' className="text-light text-decoration-none ms-3">About</Link>
-                            <Link to='/services' className="text-light text-decoration-none ms-3">Services</Link>
+                            <Link to='/services' className="text-light text-decoration-none ms-3">Courses</Link>
                             <Link to='/teachers' className="text-light text-decoration-none ms-3">Teachers</Link>
                             <Link to='/contact' className="text-light text-decoration-none ms-3">Contact</Link>
                         </Nav>
